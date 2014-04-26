@@ -159,14 +159,14 @@ setup_vundle() {
 ############################ MAIN()
 program_exists "vim" "To install $app_name you first need to install Vim."
 
-do_backup   "Your old vim stuff has a suffix now and looks like .vim.`date +%Y%m%d%S`" \
-        "$HOME/.vim" \
-        "$HOME/.vimrc" \
-        "$HOME/.gvimrc"
+#do_backup   "Your old vim stuff has a suffix now and looks like .vim.`date +%Y%m%d%S`" \
+#        "$HOME/.vim" \
+#        "$HOME/.vimrc" \
+#        "$HOME/.gvimrc"
 
-clone_repo      "Successfully cloned $app_name"
+#clone_repo      "Successfully cloned $app_name"
 
-create_symlinks "Setting up vim symlinks"
+#create_symlinks "Setting up vim symlinks"
 
 clone_vundle    "Successfully cloned vundle"
 
